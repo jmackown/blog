@@ -1,4 +1,52 @@
 baseURL = "http://www.jcmc.xyz/"
 languageCode = "en-gb"
-title = "jcmc blog "
-theme = "ananke"
+title = "jcmc "
+theme = "kiss"
+copyright = "&copy; <a href=\"https://github.com/jmackown\">jcmc</a> 2018"
+disqusShortname = ""
+googleAnalytics = ""
+Paginate = 5 # Number of posts per page
+enableRobotsTXT = true
+
+[params.rss] # Adding this tag enables RSS feed
+includeContent = true # Includes whole content in rss
+authorName = "Jennifer Mackown" # Author full name
+authorEmail = "heyjcmc@gmail.com" # Author email
+
+[params.assets]
+customCSS = ["css/custom.css"]
+
+[params.info]
+adsense = "" # Adsense ID (ID only, without ca-pub-)
+enableSocial = true # Adds OpenGraph and Twitter cards
+homeTitle = "" # Title for home page
+poweredby = true # Adds powered by hugo and kiss below Copyright
+related = true # Includes related articles at the bottom of the article
+
+
+[params.opengraph.facebook]
+admins = [] # array of Facebook IDs
+appID = ""
+pageID = ""
+
+[params.opengraph.twitter]
+page = "" # Twitter Page username. If not set, params.social.twitter will be used.
+
+[params.social]
+twitter = "__jcmc"
+github = "jmackown"
+email = "heyjcmc@gmail.com"
+linkedin = "/jennifer-mackown-4352aa37"
+facebook = ""
+instagram = ""
+codepen = ""
+rss = "index.xml" # Add this to show RSS button in social.
+
+[params.social.config]
+platforms = ["github","facebook","twitter","instagram","email","codepen","linkedin"]
+
+[taxonomies]
+tag ="tags"
+
+[blackfriday]
+hrefTargetBlank = true
