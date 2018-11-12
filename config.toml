@@ -1,0 +1,4 @@
+baseURL = "http://www.jcmc.xyz/"
+languageCode = "en-gb"
+title = "jcmc blog "
+theme = "ananke"
